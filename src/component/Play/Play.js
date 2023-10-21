@@ -276,7 +276,7 @@ function Play() {
   };
 
   return (
-    <>
+    <div style={{ backgroundColor: "rgb(16 18 20)" }}>
       {load ? (
         <Container maxWidth="xl" id="playMain">
           <Grid container>
@@ -495,7 +495,7 @@ function Play() {
           Remove successful from Watch Later
         </Alert>
       </Snackbar>
-    </>
+    </div>
   );
 }
 
