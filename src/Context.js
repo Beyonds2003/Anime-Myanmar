@@ -4,11 +4,11 @@ import { Navigate, useLocation, useNavigate } from "react-router-dom";
 
 const AnimeContext = React.createContext();
 
-//https://blue-violet-bee-vest.cyclic.app/
+//https://amaranth-getup.cyclic.app/
 //https://anime-myanmar-server.vercel.app/
 // "https://anime-myanmar-database-23.herokuapp.com/"
 function Context(props) {
-  const url = "https://blue-violet-bee-vest.cyclic.app/";
+  const url = "https://amaranth-getup.cyclic.app/";
   const url2 = "https://anime-myanmar.vercel.app";
   const [anime, setAnime] = React.useState([]);
   const [Mload, setMload] = React.useState(false);
